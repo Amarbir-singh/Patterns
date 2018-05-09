@@ -12,16 +12,27 @@ public class PrintPattern5
 				  System.out.print("*");
 				  System.out.print(" ");
 			  }
+			  else if(i!=8)
+			  {
+				  
+				  if((j==8||(j==0)))
+				  {
+			        System.out.print("*");
+				    System.out.print(" ");
+				  }
+				  else
+				  {
+					  System.out.print(" ");
+					  System.out.print(" ");
+				  }
+			  }
 			  if(i==8)
 			  {
 				  System.out.print("*");
 				  System.out.print(" ");
 			  } 
-			  if(j==0)
-			  {
-				  System.out.print("*");
-				  System.out.print(" ");
-			  }
+			 
+			  
 			  
 			}
 		   System.out.println();
